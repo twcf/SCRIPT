@@ -752,15 +752,6 @@ NotificationHolder:message {
 			Description = "Better Bypasser Loaded.",
 			Icon = 6023426926
 		}
-
-		wait(2.5)
-
-
-
-
-
-	wait(10)
-	NotificationHolder:message {Title = "<font color='rgb(240,248,255)'>Warning</font>", Description = "Skidded by matters to add new words.", Icon = 10952973359}
 	pcall(
 		function()
 			getgenv().LOADED = true
@@ -768,6 +759,12 @@ NotificationHolder:message {
 	)
 
 end
+
+
+
+
+
+	wait(10)
 
 if filteredString == "####" then
 	NotificationHolder:message {
