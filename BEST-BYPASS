@@ -571,7 +571,10 @@ function execute()
 		["thotting"] = "th{{aieixzvzx:otting}}", --NEW
 		["thotting"] = "th{{aieixzvzx:otting}}", --NEW
 		["tranny"] = "tra{{aieixzvzx:nny}}", --NEW
-		["tranny"] = "tra{{aieixzvzx:nny}}", --NEW
+		["trans"] = "tra{{aieixzvzx:ns}}", --NEW
+		["bisexual"] = "bise{{aieixzvzx:xual}}", --NEW
+		["gay"] = "g{{aieixzvzx:ay}}", --NEW
+		["homosexual"] = "homos{{aieixzvzx:exual}}", --NEW
 
 		["condom"] = "con{{aieixzvzx:dom}}",
 		["condoms"] = "con{{aieixzvzx:doms}}",  
