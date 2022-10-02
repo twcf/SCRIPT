@@ -676,15 +676,10 @@ function execute()
 		["do"] = "d{{aieixzvzx:o}}",
 		["to"] = "t{{aieixzvzx:o}}",
 		["of"] = "o{{aieixzvzx:f}}",
-		["he"] = "h{{aieixzvzx:e}}",
-		["she"] = "sh{{aieixzvzx:e}}",
-		["they"] = "th{{aieixzvzx:ey}}",
-		["them"] = "th{{aieixzvzx:em}}",
 		["had"] = "h{{aieixzvzx:add}}",
 		["for"] = "fo{{aieixzvzx:r}}",
 		["on"] = "o{{aieixzvzx:n}}",
 		["as"] = "a{{aieixzvzx:s}}",
-		["my"] = "m{{aieixzvzx:y}}",
 		["yours"] = "you{{aieixzvzx:rs}}",
 		["not"] = "no{{aieixzvzx:t}}",
 		["with"] = "wi{{aieixzvzx:th}}",
@@ -702,10 +697,6 @@ function execute()
 		["all"] = "a{{aieixzvzx:ll}}",
 		["get"] = "ge{{aieixzvzx:t}}",
 		["its"] = "i{{aieixzvzx:ts}}",
-		["yes"] = "ye{{aieixzvzx:s}}",
-		["no"] = "n{{aieixzvzx:o}}",
-		["so"] = "s{{aieixzvzx:o}}",
-		["said"] = "sa{{aieixzvzx:id}}",
 		["can"] = "ca{{aieixzvzx:n}}"
 
 		
