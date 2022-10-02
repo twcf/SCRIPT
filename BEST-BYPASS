@@ -647,6 +647,7 @@ function execute()
 		["discord"] = "disco{{aieixzvzx:rd}}",
 		["instagram"] = "inst{{aieixzvzx:agram}}",
 		["snapchat"] = "snap{{aieixzvzx:chat}}",
+		["reddit"] = "red{{aieixzvzx:dit}}",
 
 		-- ALL NEW
 
