@@ -683,7 +683,7 @@ function execute()
 		["more"] = "mo{{aieixzvzx:re}}",
 		["get"] = "ge{{aieixzvzx:t}}",
 		["can"] = "ca{{aieixzvzx:n}}"
-
+		["before"] = "bef{{aieixzvzx:ore}}", --NEW
 		
 	}
 
