@@ -537,6 +537,7 @@ function execute()
 		["gay"] = "g{{aieixzvzx:ay}}",
 		["gays"] = "g{{aieixzvzx:ays}}",
 		["sex"] = "se{{aieixzvzx:x}}",
+		["esex"] = "es{{aieixzvzx:ex}}", --NEW
 		["sexy"] = "se{{aieixzvzx:xy}}",
 		["sexting"] = "se{{aieixzvzx:xting}}",
 		["porn"] = "po{{aieixzvzx:rn}}",
