@@ -522,6 +522,7 @@ function execute()
 		["shitting"] = "sh{{aieixzvzx:itting}}",  
 		["shitty"] = "shi{{aieixzvzx:tty}}",
 		["horseshit"] = "horsesh{{aieixzvzx:it}}", --NEW
+		["bullshit"] = "bullsh{{aieixzvzx:it}}", --NEW
 		["jerk"] = "je{{aieixzvzx:rk}}", --NEW
 		["jerking"] = "jer{{aieixzvzx:king}}", --NEW
 		["slut"] = "sl{{aieixzvzx:ut}}",
@@ -628,16 +629,16 @@ function execute()
 		["christianity"] = "chri{{aieixzvzx:stianity}}",
 		["satanism"] = "sata{{aieixzvzx:nism}}",
 
-		["1"] = "on{{aieixzvzx:e}}",
-		["2"] = "t{{aieixzvzx:wo}}",
-		["3"] = "th{{aieixzvzx:ree}}",
-		["4"] = "fo{{aieixzvzx:ur}}",
-		["5"] = "fi{{aieixzvzx:ve}}",
-		["6"] = "s{{aieixzvzx:ix}}",
-		["7"] = "se{{aieixzvzx:ven}}",
-		["8"] = "ei{{aieixzvzx:ght}}",
-		["9"] = "ni{{aieixzvzx:ne}}",
-		["10"] = "te{{aieixzvzx:n}}",
+		["one"] = "on{{aieixzvzx:e}}",
+		["two"] = "t{{aieixzvzx:wo}}",
+		["three"] = "th{{aieixzvzx:ree}}",
+		["four"] = "fo{{aieixzvzx:ur}}",
+		["five"] = "fi{{aieixzvzx:ve}}",
+		["six"] = "s{{aieixzvzx:ix}}",
+		["seven"] = "se{{aieixzvzx:ven}}",
+		["eight"] = "ei{{aieixzvzx:ght}}",
+		["nine"] = "ni{{aieixzvzx:ne}}",
+		["ten"] = "te{{aieixzvzx:n}}",
 		["twitter"] = "twi{{aieixzvzx:tter}}",
 		["youtube"] = "you{{aieixzvzx:tube}}",
 		["rumble"] = "rum{{aieixzvzx:ble}}",
@@ -661,7 +662,8 @@ function execute()
 
 		
 		["and"] = "a{{aieixzvzx:nd}}",
-		["fn"] = "f{{aieixzvzx:n}}",
+		["fn"] = "f{{aieixzvzx:n}}", --NEW
+		["ng"] = "n{{aieixzvzx:g}}", --NEW
 		["or"] = "o{{aieixzvzx:r}}",
 		["else"] = "el{{aieixzvzx:se}}",
 		["then"] = "th{{aieixzvzx:en}}",
@@ -751,6 +753,7 @@ NotificationHolder:message {
 			Description = "Better Bypasser Loaded.",
 			Icon = 6023426926
 		}
+		print("Better Bypasser Loaded.")
 	pcall(
 		function()
 			getgenv().LOADED = true
