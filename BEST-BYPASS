@@ -665,33 +665,22 @@ function execute()
 
 		
 		["and"] = "a{{aieixzvzx:nd}}",
+		["you"] = "yo{{aieixzvzx:u}}", --NEW
+		["us"] = "u{{aieixzvzx:s}}", --NEW
 		["fn"] = "f{{aieixzvzx:n}}", --NEW
 		["ng"] = "n{{aieixzvzx:g}}", --NEW
-		["or"] = "o{{aieixzvzx:r}}",
-		["else"] = "el{{aieixzvzx:se}}",
-		["then"] = "th{{aieixzvzx:en}}",
-		["what"] = "wha{{aieixzvzx:t}}",
-		["who"] = "wh{{aieixzvzx:o}}",
-		["where"] = "wh{{aieixzvzx:ere}}",
 		["see"] = "se{{aieixzvzx:e}}",
 		["do"] = "d{{aieixzvzx:o}}",
-		["to"] = "t{{aieixzvzx:o}}",
-		["of"] = "o{{aieixzvzx:f}}",
 		["had"] = "h{{aieixzvzx:add}}",
 		["for"] = "fo{{aieixzvzx:r}}",
 		["on"] = "o{{aieixzvzx:n}}",
 		["as"] = "a{{aieixzvzx:s}}",
-		["yours"] = "you{{aieixzvzx:rs}}",
 		["with"] = "wi{{aieixzvzx:th}}",
 		["number"] = "numb{{aieixzvzx:er}}",
 		["numbers"] = "numb{{aieixzvzx:ers}}",
 		["get"] = "ge{{aieixzvzx:t}}",
-		["come"] = "co{{aieixzvzx:me}}",
-		["some"] = "so{{aieixzvzx:me}}",
-		["there"] = "the{{aieixzvzx:re}}",
 		["more"] = "mo{{aieixzvzx:re}}",
 		["get"] = "ge{{aieixzvzx:t}}",
-		["its"] = "i{{aieixzvzx:ts}}",
 		["can"] = "ca{{aieixzvzx:n}}"
 
 		
