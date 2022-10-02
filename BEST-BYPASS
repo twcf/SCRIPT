@@ -600,7 +600,8 @@ function execute()
 		["hoe"] = "h{{aieixzvzx:oe}}",
 		["pedo"] = "pe{{aieixzvzx:do}}",
 		["nsfw"] = "ns{{aieixzvzx:fw}}",
-		["suck"] = "su{{aieixzvzx:ck}}",
+		["suck"] = "suc{{aieixzvzx:k}}", --NEW
+		["sucking"] = "suc{{aieixzvzx:king}}", --NEW
 		["cum"] = "c{{aieixzvzx:um}}",
 		["cums"] = "c{{aieixzvzx:ums}}",
 		["cumming"] = "cu{{aieixzvzx:mming}}",
