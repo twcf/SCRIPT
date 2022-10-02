@@ -662,6 +662,7 @@ function execute()
 
 		
 		["and"] = "a{{aieixzvzx:nd}}",
+		["fn"] = "f{{aieixzvzx:n}}",
 		["or"] = "o{{aieixzvzx:r}}",
 		["if"] = "i{{aieixzvzx:f}}",
 		["else"] = "el{{aieixzvzx:se}}",
