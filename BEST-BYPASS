@@ -493,8 +493,8 @@ function execute()
 		["fuck"] = "fu{{aieixzvzx:ck}}",
 		["fucks"] = "fu{{aieixzvzx:cks}}",
 		["fucked"] = "fu{{aieixzvzx:cked}}",
-		["fucking"] = "fu{{aieixzvzx:ckign}}",
-		["fuckin"] = "fu{{aieixzvzx:ckign}}",
+		["fucking"] = "fu{{aieixzvzx:cking}}",
+		["fuckin"] = "fu{{aieixzvzx:cking}}",
 		["gaylord"] = "gayl{{aieixzvzx:ord}}",
 		["gaylords"] = "gayl{{aieixzvzx:ords}}",  
 		["bastard"] = "bas{{aieixzvzx:tard}}",  --NEW
