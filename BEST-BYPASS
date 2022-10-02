@@ -747,8 +747,8 @@ function execute()
 	end)
 
 NotificationHolder:message {
-			Title = "<font color='rgb(130, 220, 120)'>Credits</font>",
-			Description = "ly riptide.",
+			Title = "<font color='rgb(130, 220, 120)'>Loaded</font>",
+			Description = "Better Bypasser Loaded.",
 			Icon = 6023426926
 		}
 
@@ -759,7 +759,7 @@ NotificationHolder:message {
 
 
 	wait(10)
-	NotificationHolder:message {Title = "<font color='rgb(240,248,255)'>Warning</font>", Description = "sacred a skid", Icon = 10952973359}
+	NotificationHolder:message {Title = "<font color='rgb(240,248,255)'>Warning</font>", Description = "Skidded by matters to add new words.", Icon = 10952973359}
 	pcall(
 		function()
 			getgenv().LOADED = true
