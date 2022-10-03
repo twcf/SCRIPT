@@ -755,6 +755,7 @@ function execute()
 		["enter"] = "th{{aieixzvzx:em}}", --NEW
 		["come"] = "co{{aieixzvzx:me}}",
 		["comes"] = "co{{aieixzvzx:mes}}",
+		["thought"] = "thou{{aieixzvzx:ght}}", --NEW
 		["i"] = "i{{aieixzvzx:#}}", --NEW
 		["a"] = "a{{aieixzvzx:#}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
