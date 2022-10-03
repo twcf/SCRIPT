@@ -702,7 +702,8 @@ function execute()
 		-- ALL NEW
 
 		["wtf"] = "wt{{aieixzvzx:f}}",
-		["wtH"] = "wt{{aieixzvzx:H}}",
+		["wth"] = "wt{{aieixzvzx:h}}",
+		["fym"] = "fy{{aieixzvzx:m}}",
 		["gtfo"] = "gt{{aieixzvzx:fo}}",
 		["kys"] = "k{{aieixzvzx:ys}}",
 		["omfg"] = "omf{{aieixzvzx:g}}",
