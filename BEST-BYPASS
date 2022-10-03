@@ -766,6 +766,8 @@ function execute()
 		["come"] = "co{{aieixzvzx:me}}",
 		["comes"] = "co{{aieixzvzx:mes}}",
 		["thought"] = "thou{{aieixzvzx:ght}}", --NEW
+		["thanks"] = "tha{{aieixzvzx:nks}}", --NEW
+		["thank"] = "tha{{aieixzvzx:nk}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
 		["its"] = "it{{aieixzvzx:s}}",
 		["notice"] = "noti{{aieixzvzx:ce}}",
