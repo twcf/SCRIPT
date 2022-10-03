@@ -754,6 +754,8 @@ function execute()
 		["enter"] = "th{{aieixzvzx:em}}", --NEW
 		["come"] = "co{{aieixzvzx:me}}",
 		["comes"] = "co{{aieixzvzx:mes}}",
+		["i"] = "i{{aieixzvzx:#}}", --NEW
+		["a"] = "a{{aieixzvzx:#}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
 		["its"] = "it{{aieixzvzx:s}}",
 		["did"] = "di{{aieixzvzx:d}}", --NEW
