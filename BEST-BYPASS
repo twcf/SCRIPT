@@ -730,8 +730,9 @@ function execute()
 		["me"] = "m{{aieixzvzx:e}}", --NEW
 		["he"] = "h{{aieixzvzx:e}}", --NEW
 		["her"] = "h{{aieixzvzx:er}}", --NEW
-		["she"] = "hi{{aieixzvzx:m}}", --NEW
-		["him"] = "sh{{aieixzvzx:e}}", --NEW
+		["she"] = "sh{{aieixzvzx:e}}", --NEW
+		["him"] = "hi{{aieixzvzx:m}}", --NEW
+		["her"] = "he{{aieixzvzx:r}}", --NEW
 		["they"] = "th{{aieixzvzx:ey}}",
 		["them"] = "th{{aieixzvzx:em}}",
 		["had"] = "h{{aieixzvzx:add}}",
@@ -758,7 +759,6 @@ function execute()
 		["come"] = "co{{aieixzvzx:me}}",
 		["comes"] = "co{{aieixzvzx:mes}}",
 		["thought"] = "thou{{aieixzvzx:ght}}", --NEW
-		["i"] = "i{{aieixzvzx:#}}", --NEW
 		["a"] = "a{{aieixzvzx:#}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
 		["its"] = "it{{aieixzvzx:s}}",
