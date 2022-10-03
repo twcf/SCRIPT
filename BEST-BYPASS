@@ -576,6 +576,9 @@ function execute()
 		["hotter"] = "ho{{aieixzvzx:tter}}",  
 		["boob"] = "bo{{aieixzvzx:ob}}",  
 		["boobs"] = "boo{{aieixzvzx:bs}}",
+		["feet"] = "fe{{aieixzvzx:et}}", --NEW
+		["toes"] = "to{{aieixzvzx:es}}", --NEW
+		["toe"] = "to{{aieixzvzx:e}}", --NEW
 		["tit"] = "t{{aieixzvzx:it}}", --NEW
 		["tits"] = "t{{aieixzvzx:its}}", --NEW
 		["thot"] = "th{{aieixzvzx:ot}}", --NEW
