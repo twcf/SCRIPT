@@ -471,25 +471,27 @@ function execute()
 	local Bypasses = {
 
 		["ass"] = "as{{aieixzvzx:s}}",
+		["asses"] = "as{{aieixzvzx:ses}}",
 		["asshole"] = "as{{aieixzvzx:shole}}",
 		["deadass"] = "dead as{{aieixzvzx:s}}",
 		["arse"] = "ar{{aieixzvzx:se}}", --NEW
 		["arsehead"] = "ar{{aieixzvzx:se}}head", --NEW
 		["arsehole"] = "ar{{aieixzvzx:se}}hole", --NEW
 		["bitch"] = "bit{{aieixzvzx:ch}}",
+		["bitchs"] = "bit{{aieixzvzx:chs}}",
 		["bitches"] = "bit{{aieixzvzx:ches}}",  
 		["cock"] = "co{{aieixzvzx:ck}}",
 		["cocks"] = "co{{aieixzvzx:cks}}",  
 		["cunt"] = "cu{{aieixzvzx:nt}}",
-		["dik"] = "di{{zczxczvz:k}}",
-		["dic"] = "di{{zczxczvz:c}}",
+		["cunts"] = "cu{{aieixzvzx:nts}}",
 		["dick"] = "di{{zczxczvz:ck}}",
 		["dickhead"] = "di{{zczxczvz:ckhead}}",
 		["dicks"] = "di{{zczxczvz:cks}}",  
 		["dyke"] = "dy{{aieixzvzx:ke}}",
-		["fag"] = "fa{{aieixzvzx:g}}",  --NEW
 		["faggot"] = "fa{{aieixzvzx:ggot}}",
 		["faggots"] = "fa{{aieixzvzx:ggots}}",
+		["fag"] = "fa{{aieixzvzx:g}}",
+		["fags"] = "fa{{aieixzvzx:gs}}",
 		["fuck"] = "fu{{aieixzvzx:ck}}",
 		["fucks"] = "fu{{aieixzvzx:cks}}",
 		["fucked"] = "fu{{aieixzvzx:cked}}",
@@ -507,48 +509,55 @@ function execute()
 		["bugger"] = "bugg{{aieixzvzx:er}}", --NEW
 		["buggers"] = "bugg{{aieixzvzx:er}}s", --NEW
 		["nigga"] = "ni{{aieixzvzx:gga}}",
-		["nigga"] = "ni{{aieixzvzx:ggas}}",
+		["niggas"] = "ni{{aieixzvzx:ggas}}",
 		["nigger"] = "ni{{aieixzvzx:gger}}",
-		["nigger"] = "ni{{aieixzvzx:ggers}}",
+		["niggers"] = "ni{{aieixzvzx:ggers}}",
 		["piss"] = "p{{aieixzvzx:iss}}", 
 		["pisses"] = "p{{aieixzvzx:isses}}",  
 		["pissing"] = "p{{aieixzvzx:is}}sing", --NEW
 		["pisser"] = "pi{{aieixzvzx:sser}}", --NEW
-		["penis"] = "pe{{aieixzvzx:nis}}",
+		["penis"] = "pen{{aieixzvzx:is#}}",
 		["penisses"] = "pe{{aieixzvzx:nisses}}",  
 		["pussy"] = "pu{{aieixzvzx:ssy}}",
+		["pussys"] = "pu{{aieixzvzx:ssys}}",
 		["shit"] = "sh{{aieixzvzx:it}}",
+		["shits"] = "sh{{aieixzvzx:its}}",
 		["shitter"] = "sh{{aieixzvzx:itter}}",  
 		["shitting"] = "sh{{aieixzvzx:itting}}",  
 		["shitty"] = "shi{{aieixzvzx:tty}}",
 		["horseshit"] = "horsesh{{aieixzvzx:it}}", --NEW
 		["bullshit"] = "bullsh{{aieixzvzx:it}}", --NEW
 		["jerk"] = "je{{aieixzvzx:rk}}", --NEW
+		["jerks"] = "je{{aieixzvzx:rks}}", --NEW
 		["jerking"] = "jer{{aieixzvzx:king}}", --NEW
 		["slut"] = "sl{{aieixzvzx:ut}}",
 		["sluts"] = "sl{{aieixzvzx:uts}}",  
 		["whore"] = "who{{aieixzvzx:re}}",
 		["whores"] = "who{{aieixzvzx:res}}",  
 		["retard"] = "ret{{aieixzvzx:ard}}",
+		["retards"] = "ret{{aieixzvzx:ards}}",
 		["retarded"] = "ret{{aieixzvzx:arded}}",
 		["kill"] = "ki{{aieixzvzx:ll}}",
 		["kills"] = "ki{{aieixzvzx:lls}}",  
 		["killing"] = "ki{{aieixzvzx:lling}}",  
 		["gay"] = "g{{aieixzvzx:ay}}",
 		["gays"] = "g{{aieixzvzx:ays}}",
+		["esex"] = "ese{{aieixzvzx:x}}", --NEW
 		["sex"] = "se{{aieixzvzx:x}}",
-		["esex"] = "es{{aieixzvzx:ex}}", --NEW
 		["sexy"] = "se{{aieixzvzx:xy}}",
 		["sexting"] = "se{{aieixzvzx:xting}}",
 		["porn"] = "po{{aieixzvzx:rn}}",
+		["porns"] = "po{{aieixzvzx:rns}}",
+		["porno"] = "po{{aieixzvzx:rno}}",
 		["love"] = "l{{aieixzvzx:ove}}",
 		["loves"] = "l{{aieixzvzx:oves}}",  
 		["lover"] = "l{{aieixzvzx:over}}",  
 		["loving"] = "l{{aieixzvzx:oving}}",  
-		["date"] = "da{{aieixzvzx:te}}",  
+		["date"] = "dat{{aieixzvzx:e}}",  
 		["dates"] = "da{{aieixzvzx:tes}}",  
 		["dating"] = "da{{aieixzvzx:ting}}",  
 		["dater"] = "da{{aieixzvzx:ter}}",  
+		["edater"] = "eda{{aieixzvzx:ter}}", --NEW  
 		["rape"] = "ra{{aieixzvzx:pe}}",
 		["raped"] = "rap{{aieixzvzx:ed}}",
 		["rapes"] = "ra{{aieixzvzx:pes}}",  
@@ -560,7 +569,7 @@ function execute()
 		["hacking"] = "hac{{aieixzvzx:king}}",  
 		["hacker"] = "hac{{aieixzvzx:ker}}",  
 		["hackers"] = "hac{{aieixzvzx:kers}}",  
-		["hot"] = "ho{{aieixzvzx:t}}",
+		["hot"] = "ho{{aieixzvzx:t#}}",
 		["hotter"] = "ho{{aieixzvzx:tter}}",  
 		["boob"] = "bo{{aieixzvzx:ob}}",  
 		["boobs"] = "boo{{aieixzvzx:bs}}",
@@ -568,28 +577,37 @@ function execute()
 		["tits"] = "t{{aieixzvzx:its}}", --NEW
 		["thot"] = "th{{aieixzvzx:ot}}", --NEW
 		["thots"] = "th{{aieixzvzx:ots}}", --NEW
+		["thotty"] = "th{{aieixzvzx:otty}}", --NEW
 		["thotting"] = "th{{aieixzvzx:otting}}", --NEW
 		["thotting"] = "th{{aieixzvzx:otting}}", --NEW
 		["tranny"] = "tra{{aieixzvzx:nny}}", --NEW
+		["trannys"] = "tra{{aieixzvzx:nny}}", --NEW
 		["trans"] = "tra{{aieixzvzx:ns}}", --NEW
 		["bisexual"] = "bise{{aieixzvzx:xual}}", --NEW
-		["gay"] = "g{{aieixzvzx:ay}}", --NEW
-		["homosexual"] = "homos{{aieixzvzx:exual}}", --NEW
+		["bisexuals"] = "bise{{aieixzvzx:xuals}}", --NEW
+		["homosexual"] = "hom{{aieixzvzx:oexual}}", --NEW
+		["homosexuals"] = "hom{{aieixzvzx:oexuals}}", --NEW
+		["pansexual"] = "pans{{aieixzvzx:exual}}", --NEW
+		["pansexuals"] = "pans{{aieixzvzx:exuals}}", --NEW
 
 		["condom"] = "con{{aieixzvzx:dom}}",
 		["condoms"] = "con{{aieixzvzx:doms}}",  
 		["thot"] = "th{{aieixzvzx:ot}}",
 		["thots"] = "th{{aieixzvzx:ots}}",  
 		["bang"] = "ban{{aieixzvzx:g}}",
+		["bangs"] = "ban{{aieixzvzx:gs}}",
 		["ligma"] = "li{{aieixzvzx:gma}}",
 		["ligmaballs"] = "ligm{{aieixzvzx:aballs}}",
 		["terrorist"] = "terror{{aieixzvzx:ist}}",
 		["terrorists"] = "terror{{aieixzvzx:ists}}",  
 		["horny"] = "horn{{aieixzvzx:y}}",
 		["mf"] = "m{{aieixzvzx:f}}",
+		["mfs"] = "m{{aieixzvzx:fs}}",
 		["lmao"] = "lm{{aieixzvzx:ao}}",
 		["anus"] = "an{{aieixzvzx:us}}",
 		["hacks"] = "hac{{aieixzvzx:ks}}",
+		["hack"] = "hac{{aieixzvzx:k}}",
+		["hacker"] = "hac{{aieixzvzx:ker}}",
 		["predator"] = "pred{{aieixzvzx:ator}}",
 		["predators"] = "pred{{aieixzvzx:ator}}",  
 		["kiss"] = "ki{{aieixzvzx:ss}}",
@@ -597,17 +615,18 @@ function execute()
 		["kissing"] = "ki{{aieixzvzx:ssing}}",  
 		["kisser"] = "ki{{aieixzvzx:sser}}",  
 		["bomb"] = "bom{{aieixzvzx:b}}",
-		["bomb"] = "bom{{aieixzvzx:bs}}",  
+		["bombs"] = "bom{{aieixzvzx:bs}}",  
+		["bombing"] = "bom{{aieixzvzx:bing}}",
 		["nude"] = "nu{{aieixzvzx:de}}",
 		["nudes"] = "nu{{aieixzvzx:des}}",
 		["child"] = "chi{{aieixzvzx:ld}}",
 		["my"] = "m{{aieixzvzx:y}}",
 		["racism"] = "raci{{aieixzvzx:sm}}",
 		["hoe"] = "h{{aieixzvzx:oe}}",
+		["hoes"] = "h{{aieixzvzx:oes}}",
 		["pedo"] = "pe{{aieixzvzx:do}}",
 		["nsfw"] = "ns{{aieixzvzx:fw}}",
-		["suck"] = "suc{{aieixzvzx:k}}", --NEW
-		["sucking"] = "suc{{aieixzvzx:king}}", --NEW
+		["suck"] = "su{{aieixzvzx:ck}}",
 		["cum"] = "c{{aieixzvzx:um}}",
 		["cums"] = "c{{aieixzvzx:ums}}",
 		["cumming"] = "cu{{aieixzvzx:mming}}",
@@ -625,6 +644,10 @@ function execute()
 		["faggot"] = "fa{{aieixzvzx:ggot}}",
 		["ballsack"] = "ba{{aieixzvzx:llsack}}",
 		["nutsack"] = "nu{{aieixzvzx:tsack}}",
+		["nut"] = "nu{{aieixzvzx:t}}",
+		["nuts"] = "nu{{aieixzvzx:ts}}",
+		["nuting"] = "nu{{aieixzvzx:ting}}",
+		["nuted"] = "nu{{aieixzvzx:ted}}",
 		["athiest"] = "athi{{aieixzvzx:est}}",
 		["jewish"] = "je{{aieixzvzx:wish}}",
 		["christian"] = "chri{{aieixzvzx:stian}}",
@@ -656,7 +679,6 @@ function execute()
 		["instagram"] = "inst{{aieixzvzx:agram}}",
 		["snapchat"] = "snap{{aieixzvzx:chat}}",
 		["reddit"] = "red{{aieixzvzx:dit}}",
-
 		-- ALL NEW
 
 		["wtf"] = "wt{{aieixzvzx:f}}",
@@ -665,28 +687,55 @@ function execute()
 		["omfg"] = "omf{{aieixzvzx:g}}",
 		["stfu"] = "st{{aieixzvzx:fu}}",
 		["ily"] = "il{{aieixzvzx:y}}",
+		["ilysm"] = "il{{aieixzvzx:ysm}}",
 		["istg"] = "is{{aieixzvzx:tg}}",
 
 		
 		["and"] = "a{{aieixzvzx:nd}}",
-		["you"] = "yo{{aieixzvzx:u}}", --NEW
-		["us"] = "u{{aieixzvzx:s}}", --NEW
-		["fn"] = "f{{aieixzvzx:n}}", --NEW
-		["ng"] = "n{{aieixzvzx:g}}", --NEW
+		["or"] = "o{{aieixzvzx:r}}",
+		["if"] = "i{{aieixzvzx:f}}",
+		["else"] = "el{{aieixzvzx:se}}",
+		["then"] = "th{{aieixzvzx:en}}",
+		["why"] = "wh{{aieixzvzx:y}}",
+		["what"] = "wha{{aieixzvzx:t}}",
+		["who"] = "wh{{aieixzvzx:o}}",
+		["where"] = "wh{{aieixzvzx:ere}}",
 		["see"] = "se{{aieixzvzx:e}}",
 		["do"] = "d{{aieixzvzx:o}}",
+		["to"] = "t{{aieixzvzx:o}}",
+		["of"] = "o{{aieixzvzx:f}}",
+		["he"] = "h{{aieixzvzx:e}}",
+		["she"] = "sh{{aieixzvzx:e}}",
+		["they"] = "th{{aieixzvzx:ey}}",
+		["them"] = "th{{aieixzvzx:em}}",
 		["had"] = "h{{aieixzvzx:add}}",
 		["for"] = "fo{{aieixzvzx:r}}",
 		["on"] = "o{{aieixzvzx:n}}",
 		["as"] = "a{{aieixzvzx:s}}",
+		["you"] = "y{{aieixzvzx:ou}}",
+		["my"] = "m{{aieixzvzx:y}}",
+		["yours"] = "you{{aieixzvzx:rs}}",
+		["not"] = "no{{aieixzvzx:t}}",
 		["with"] = "wi{{aieixzvzx:th}}",
 		["number"] = "numb{{aieixzvzx:er}}",
 		["numbers"] = "numb{{aieixzvzx:ers}}",
+		["day"] = "da{{aieixzvzx:y}}",
+		["night"] = "ni{{aieixzvzx:ght}}",
 		["get"] = "ge{{aieixzvzx:t}}",
+		["come"] = "co{{aieixzvzx:me}}",
+		["it"] = "it{{aieixzvzx:#}}",
+		["some"] = "so{{aieixzvzx:me}}",
+		["there"] = "the{{aieixzvzx:re}}",
+		["but"] = "bu{{aieixzvzx:t}}",
 		["more"] = "mo{{aieixzvzx:re}}",
+		["all"] = "a{{aieixzvzx:ll}}",
 		["get"] = "ge{{aieixzvzx:t}}",
+		["its"] = "i{{aieixzvzx:ts}}",
+		["yes"] = "ye{{aieixzvzx:s}}",
+		["no"] = "n{{aieixzvzx:o}}",
+		["so"] = "s{{aieixzvzx:o}}",
+		["said"] = "sa{{aieixzvzx:id}}",
 		["can"] = "ca{{aieixzvzx:n}}"
-		["before"] = "bef{{aieixzvzx:ore}}", --NEW
 		
 	}
 
@@ -741,10 +790,6 @@ NotificationHolder:message {
 	)
 
 end
-
-
-
-
 
 	wait(10)
 
