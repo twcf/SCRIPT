@@ -675,6 +675,10 @@ function execute()
 		["girl"] = "gi{{aieixzvzx:rl}}", --NEW
 		["daddy"] = "dad{{aieixzvzx:dy}}", --NEW
 		["mommy"] = "mom{{aieixzvzx:my#}}", --NEW
+		["barbie"] = "barb{{aieixzvzx:ie}}", --NEW
+		["barbies"] = "barb{{aieixzvzx:ies}}", --NEW
+		["barb"] = "ba{{aieixzvzx:rb}}", --NEW
+		["emo"] = "em{{aieixzvzx:o}}", --NEW
 
 		["one"] = "on{{aieixzvzx:e}}",
 		["two"] = "t{{aieixzvzx:wo}}",
