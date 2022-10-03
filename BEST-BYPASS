@@ -539,7 +539,9 @@ function execute()
 		["retarded"] = "ret{{aieixzvzx:arded}}",
 		["kill"] = "ki{{aieixzvzx:ll}}",
 		["kills"] = "ki{{aieixzvzx:lls}}",  
-		["killing"] = "ki{{aieixzvzx:lling}}",  
+		["killing"] = "ki{{aieixzvzx:lling}}",
+		["die"] = "di{{aieixzvzx:e}}",
+		["died"] = "di{{aieixzvzx:ed}}",
 		["gay"] = "g{{aieixzvzx:ay}}",
 		["gays"] = "g{{aieixzvzx:ays}}",
 		["esex"] = "ese{{aieixzvzx:x}}", --NEW
