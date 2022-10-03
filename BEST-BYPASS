@@ -769,6 +769,8 @@ function execute()
 		["i"] = "i{{aieixzvzx:#}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
 		["its"] = "it{{aieixzvzx:s}}",
+		["notice"] = "noti{{aieixzvzx:ce}}",
+		["noticed"] = "noti{{aieixzvzx:ced}}",
 		["did"] = "di{{aieixzvzx:d}}", --NEW
 		["didnt"] = "di{{aieixzvzx:dnt}}", --NEW
 		["some"] = "so{{aieixzvzx:me}}",
