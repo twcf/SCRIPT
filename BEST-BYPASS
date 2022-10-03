@@ -730,6 +730,7 @@ function execute()
 		["come"] = "co{{aieixzvzx:me}}",
 		["it"] = "i{{aieixzvzx:t#}}",
 		["some"] = "so{{aieixzvzx:me}}",
+		["soon"] = "so{{aieixzvzx:on}}",
 		["there"] = "the{{aieixzvzx:re}}",
 		["but"] = "bu{{aieixzvzx:t}}",
 		["more"] = "mo{{aieixzvzx:re}}",
