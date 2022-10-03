@@ -626,7 +626,9 @@ function execute()
 		["hoes"] = "h{{aieixzvzx:oes}}",
 		["pedo"] = "pe{{aieixzvzx:do}}",
 		["nsfw"] = "ns{{aieixzvzx:fw}}",
-		["suck"] = "su{{aieixzvzx:ck}}",
+		["suck"] = "su{{aieixzvzx:ck#}}",
+		["sucks"] = "su{{aieixzvzx:cks}}",
+		["sucking"] = "su{{aieixzvzx:cking}}",
 		["cum"] = "c{{aieixzvzx:um}}",
 		["cums"] = "c{{aieixzvzx:ums}}",
 		["cumming"] = "cu{{aieixzvzx:mming}}",
@@ -658,10 +660,15 @@ function execute()
 		["muhammad"] = "muha{{aieixzvzx:mmad}}",
 		["christianity"] = "chri{{aieixzvzx:stianity}}",
 		["satanism"] = "sata{{aieixzvzx:nism}}",
-		["white"] = "whi{{aieixzvzx:te}}",
-		["mexican"] = "mex{{aieixzvzx:ican}}",
-		["black"] = "bl{{aieixzvzx:ack}}",
-		["arab"] = "ar{{aieixzvzx:ab}}",
+		["white"] = "wh{{aieixzvzx:ite#}}", --NEW
+		["mexican"] = "mex{{aieixzvzx:ican}}", --NEW
+		["black"] = "bl{{aieixzvzx:ack}}", --NEW
+		["arab"] = "ar{{aieixzvzx:ab}}", --NEW
+		["sister"] = "sis{{aieixzvzx:ter}}", --NEW
+		["brother"] = "brot{{aieixzvzx:her}}", --NEW
+		["child"] = "chi{{aieixzvzx:ld}}", --NEW
+		["daddy"] = "dad{{aieixzvzx:dy}}", --NEW
+		["mommy"] = "mom{{aieixzvzx:my#}}", --NEW
 
 		["one"] = "on{{aieixzvzx:e}}",
 		["two"] = "t{{aieixzvzx:wo}}",
@@ -673,6 +680,10 @@ function execute()
 		["eight"] = "ei{{aieixzvzx:ght}}",
 		["nine"] = "ni{{aieixzvzx:ne}}",
 		["ten"] = "te{{aieixzvzx:n}}",
+		["minute"] = "min{{aieixzvzx:ute}}",
+		["minutes"] = "min{{aieixzvzx:utes}}",
+		["hour"] = "ho{{aieixzvzx:ur}}",
+		["hours"] = "ho{{aieixzvzx:urs}}",
 		["twitter"] = "twi{{aieixzvzx:tter}}",
 		["youtube"] = "you{{aieixzvzx:tube}}",
 		["rumble"] = "rum{{aieixzvzx:ble}}",
@@ -686,6 +697,7 @@ function execute()
 		-- ALL NEW
 
 		["wtf"] = "wt{{aieixzvzx:f}}",
+		["wtH"] = "wt{{aieixzvzx:H}}",
 		["gtfo"] = "gt{{aieixzvzx:fo}}",
 		["kys"] = "k{{aieixzvzx:ys}}",
 		["omfg"] = "omf{{aieixzvzx:g}}",
@@ -708,8 +720,11 @@ function execute()
 		["do"] = "d{{aieixzvzx:o}}",
 		["to"] = "t{{aieixzvzx:o}}",
 		["of"] = "o{{aieixzvzx:f}}",
-		["he"] = "h{{aieixzvzx:e}}",
-		["she"] = "sh{{aieixzvzx:e}}",
+		["me"] = "m{{aieixzvzx:e}}", --NEW
+		["he"] = "h{{aieixzvzx:e}}", --NEW
+		["her"] = "h{{aieixzvzx:er}}", --NEW
+		["she"] = "hi{{aieixzvzx:m}}", --NEW
+		["him"] = "sh{{aieixzvzx:e}}", --NEW
 		["they"] = "th{{aieixzvzx:ey}}",
 		["them"] = "th{{aieixzvzx:em}}",
 		["had"] = "h{{aieixzvzx:add}}",
@@ -724,11 +739,15 @@ function execute()
 		["number"] = "numb{{aieixzvzx:er}}",
 		["numbers"] = "numb{{aieixzvzx:ers}}",
 		["day"] = "da{{aieixzvzx:y}}",
+		["down"] = "do{{aieixzvzx:wn}}",
 		["night"] = "ni{{aieixzvzx:ght}}",
 		["like"] = "li{{aieixzvzx:ke}}",
 		["get"] = "ge{{aieixzvzx:t}}",
+		["enter"] = "th{{aieixzvzx:em}}", --NEW
 		["come"] = "co{{aieixzvzx:me}}",
-		["it"] = "i{{aieixzvzx:t#}}",
+		["comes"] = "co{{aieixzvzx:mes}}",
+		["it"] = "it{{aieixzvzx:#}}",
+		["its"] = "it{{aieixzvzx:s}}",
 		["some"] = "so{{aieixzvzx:me}}",
 		["soon"] = "so{{aieixzvzx:on}}",
 		["there"] = "the{{aieixzvzx:re}}",
@@ -736,13 +755,14 @@ function execute()
 		["more"] = "mo{{aieixzvzx:re}}",
 		["all"] = "a{{aieixzvzx:ll}}",
 		["get"] = "ge{{aieixzvzx:t}}",
-		["its"] = "i{{aieixzvzx:ts}}",
+		["gets"] = "ge{{aieixzvzx:ts}}",
+		["new"] = "ne{{aieixzvzx:w}}",
 		["yes"] = "ye{{aieixzvzx:s}}",
 		["no"] = "n{{aieixzvzx:o}}",
 		["so"] = "s{{aieixzvzx:o}}",
 		["we"] = "w{{aieixzvzx:e}}",
 		["said"] = "sa{{aieixzvzx:id}}",
-		["can"] = "ca{{aieixzvzx:n}}"
+		["can"] = "ca{{aieixzvzx:n}}" --NEW
 		
 	}
 
