@@ -666,6 +666,7 @@ function execute()
 		["arab"] = "ar{{aieixzvzx:ab}}", --NEW
 		["sister"] = "sis{{aieixzvzx:ter}}", --NEW
 		["brother"] = "brot{{aieixzvzx:her}}", --NEW
+		["cousin"] = "brot{{aieixzvzx:her}}", --NEW
 		["child"] = "chi{{aieixzvzx:ld}}", --NEW
 		["daddy"] = "dad{{aieixzvzx:dy}}", --NEW
 		["mommy"] = "mom{{aieixzvzx:my#}}", --NEW
@@ -730,8 +731,9 @@ function execute()
 		["had"] = "h{{aieixzvzx:add}}",
 		["for"] = "fo{{aieixzvzx:r}}",
 		["on"] = "o{{aieixzvzx:n}}",
-		["as"] = "a{{aieixzvzx:s}}",
+		["as"] = "a{{aieixzvzx:s#}}",--NEW
 		["you"] = "y{{aieixzvzx:ou}}",
+		["a"] = "a{{aieixzvzx:#}}", --NEW
 		["my"] = "m{{aieixzvzx:y}}",
 		["yours"] = "you{{aieixzvzx:rs}}",
 		["not"] = "no{{aieixzvzx:t}}",
@@ -739,7 +741,8 @@ function execute()
 		["number"] = "numb{{aieixzvzx:er}}",
 		["numbers"] = "numb{{aieixzvzx:ers}}",
 		["day"] = "da{{aieixzvzx:y}}",
-		["down"] = "do{{aieixzvzx:wn}}",
+		["down"] = "do{{aieixzvzx:wn}}", --NEW
+		["up"] = "u{{aieixzvzx:p}}", --NEW
 		["night"] = "ni{{aieixzvzx:ght}}",
 		["like"] = "li{{aieixzvzx:ke}}",
 		["liked"] = "li{{aieixzvzx:ked}}",
