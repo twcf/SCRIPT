@@ -517,7 +517,8 @@ function execute()
 		["pissing"] = "p{{aieixzvzx:is}}sing", --NEW
 		["pisser"] = "pi{{aieixzvzx:sser}}", --NEW
 		["penis"] = "pen{{aieixzvzx:is#}}",
-		["penisses"] = "pe{{aieixzvzx:nisses}}",  
+		["penisses"] = "pe{{aieixzvzx:nisses}}",
+		["pepe"] = "pe{{aieixzvzx:pe}}", --NEW
 		["pussy"] = "pu{{aieixzvzx:ssy}}",
 		["pussys"] = "pu{{aieixzvzx:ssys}}",
 		["shit"] = "sh{{aieixzvzx:it}}",
