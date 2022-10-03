@@ -738,6 +738,7 @@ function execute()
 		["as"] = "a{{aieixzvzx:s#}}",--NEW
 		["you"] = "y{{aieixzvzx:ou}}",
 		["a"] = "a{{aieixzvzx:#}}", --NEW
+		["i"] = "i{{aieixzvzx:#}}", --NEW
 		["my"] = "m{{aieixzvzx:y}}",
 		["yours"] = "you{{aieixzvzx:rs}}",
 		["not"] = "no{{aieixzvzx:t}}",
