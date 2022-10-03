@@ -759,7 +759,7 @@ function execute()
 		["come"] = "co{{aieixzvzx:me}}",
 		["comes"] = "co{{aieixzvzx:mes}}",
 		["thought"] = "thou{{aieixzvzx:ght}}", --NEW
-		["a"] = "a{{aieixzvzx:#}}", --NEW
+		["i"] = "i{{aieixzvzx:#}}", --NEW
 		["it"] = "it{{aieixzvzx:#}}",
 		["its"] = "it{{aieixzvzx:s}}",
 		["did"] = "di{{aieixzvzx:d}}", --NEW
