@@ -668,8 +668,10 @@ function execute()
 		["arab"] = "ar{{aieixzvzx:ab}}", --NEW
 		["sister"] = "sis{{aieixzvzx:ter}}", --NEW
 		["brother"] = "brot{{aieixzvzx:her}}", --NEW
-		["cousin"] = "brot{{aieixzvzx:her}}", --NEW
+		["cousin"] = "cou{{aieixzvzx:sin}}", --NEW
 		["child"] = "chi{{aieixzvzx:ld}}", --NEW
+		["boy"] = "bo{{aieixzvzx:y}}", --NEW
+		["girl"] = "gi{{aieixzvzx:rl}}", --NEW
 		["daddy"] = "dad{{aieixzvzx:dy}}", --NEW
 		["mommy"] = "mom{{aieixzvzx:my#}}", --NEW
 
