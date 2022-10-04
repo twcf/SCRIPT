@@ -767,7 +767,7 @@ function execute()
 		["up"] = "u{{aieixzvzx:p}}", --NEW
 		["night"] = "ni{{aieixzvzx:ght}}",
 		["like"] = "li{{aieixzvzx:ke}}",
-		["likes"] = "li{{aieixzvzx:kes}}", --NEW
+		["likes"] = "like{{aieixzvzx:s}}", --NEW
 		["liked"] = "lik{{aieixzvzx:ed}}",
 		["leave"] = "le{{aieixzvzx:ave}}", --NEW
 		["get"] = "get{{aieixzvzx:#}}",
