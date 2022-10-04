@@ -632,6 +632,7 @@ function execute()
 		["nsfw"] = "ns{{aieixzvzx:fw}}",
 		["monkey"] = "mon{{aieixzvzx:key}}", --NEW
 		["mellon"] = "mel{{aieixzvzx:lon}}", --NEW
+		["white"] = "whi{{aieixzvzx:te}}", --NEW
 		["suck"] = "su{{aieixzvzx:ck#}}",
 		["sucks"] = "su{{aieixzvzx:cks}}",
 		["sucking"] = "su{{aieixzvzx:cking}}",
