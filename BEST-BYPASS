@@ -766,8 +766,9 @@ function execute()
 		["down"] = "do{{aieixzvzx:wn}}", --NEW
 		["up"] = "u{{aieixzvzx:p}}", --NEW
 		["night"] = "ni{{aieixzvzx:ght}}",
-		["like"] = "lik{{aieixzvzx:e}}",
+		["like"] = "li{{aieixzvzx:ke}}",
 		["liked"] = "lik{{aieixzvzx:ed}}",
+		["leave"] = "le{{aieixzvzx:ave}}", --NEW
 		["get"] = "get{{aieixzvzx:#}}",
 		["got"] = "g{{aieixzvzx:ot}}", --NEW
 		["enter"] = "ente{{aieixzvzx:r}}", --NEW
