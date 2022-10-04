@@ -630,6 +630,8 @@ function execute()
 		["pedo"] = "pe{{aieixzvzx:do}}",
 		["pedophile"] = "pe{{aieixzvzx:dophile}}",
 		["nsfw"] = "ns{{aieixzvzx:fw}}",
+		["monkey"] = "mon{{aieixzvzx:key}}", --NEW
+		["mellon"] = "mel{{aieixzvzx:lon}}", --NEW
 		["suck"] = "su{{aieixzvzx:ck#}}",
 		["sucks"] = "su{{aieixzvzx:cks}}",
 		["sucking"] = "su{{aieixzvzx:cking}}",
@@ -722,11 +724,13 @@ function execute()
 		
 		["and"] = "a{{aieixzvzx:nd}}",
 		["or"] = "o{{aieixzvzx:r}}",
+		["im"] = "i{{aieixzvzx:m}}", --NEW
+		["i'm"] = "i'{{aieixzvzx:m}}", --NEW
 		["if"] = "i{{aieixzvzx:f}}",
 		["else"] = "el{{aieixzvzx:se}}",
 		["then"] = "th{{aieixzvzx:en}}",
 		["why"] = "wh{{aieixzvzx:y}}",
-		["what"] = "wh{{aieixzvzx:at}}",
+		["what"] = "wha{{aieixzvzx:t}}",
 		["who"] = "wh{{aieixzvzx:o}}",
 		["where"] = "wh{{aieixzvzx:ere}}",
 		["see"] = "se{{aieixzvzx:e}}",
