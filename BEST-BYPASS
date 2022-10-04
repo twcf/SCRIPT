@@ -663,6 +663,9 @@ function execute()
 		["allah"] = "al{{aieixzvzx:lah}}",
 		["christianity"] = "chri{{aieixzvzx:stianity}}",
 		["satanism"] = "sata{{aieixzvzx:nism}}",
+		["bean"] = "be{{aieixzvzx:an}}", --NEW
+		["beaner"] = "be{{aieixzvzx:aner}}", --NEW
+		["spic"] = "spi{{aieixzvzx:c}}", --NEW
 		["white"] = "whit{{aieixzvzx:e}}", --NEW
 		["mexican"] = "mex{{aieixzvzx:ican}}", --NEW
 		["black"] = "bl{{aieixzvzx:ack}}", --NEW
@@ -773,6 +776,7 @@ function execute()
 		["its"] = "it{{aieixzvzx:s}}",
 		["notice"] = "not{{aieixzvzx:ice}}",
 		["noticed"] = "noti{{aieixzvzx:ced}}",
+		["ddi"] = "d{{aieixzvzx:id}}", --NEW
 		["did"] = "d{{aieixzvzx:id}}", --NEW
 		["didnt"] = "di{{aieixzvzx:dnt}}", --NEW
 		["dont"] = "do{{aieixzvzx:nt}}", --NEW
