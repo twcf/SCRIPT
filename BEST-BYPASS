@@ -515,6 +515,7 @@ function execute()
 		["piss"] = "p{{aieixzvzx:iss}}", 
 		["pisses"] = "p{{aieixzvzx:isses}}",  
 		["pissing"] = "p{{aieixzvzx:is}}sing", --NEW
+		["sum"] = "su{{aieixzvzx:is}}m", --NEW
 		["pisser"] = "pi{{aieixzvzx:sser}}", --NEW
 		["penis"] = "pen{{aieixzvzx:is#}}",
 		["penises"] = "pe{{aieixzvzx:nises}}",
