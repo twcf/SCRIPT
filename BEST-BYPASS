@@ -658,6 +658,8 @@ function execute()
 		["nuting"] = "nu{{aieixzvzx:ting}}",
 		["nutitng"] = "nu{{aieixzvzx:tting}}",
 		["nutted"] = "nu{{aieixzvzx:tted}}",
+		["peeing"] = "pe{{aieixzvzx:eing}}", --NEW
+		["pee"] = "pe{{aieixzvzx:e}}", --NEW
 		["athiest"] = "athi{{aieixzvzx:est}}",
 		["jewish"] = "je{{aieixzvzx:wish}}",
 		["christian"] = "chri{{aieixzvzx:stian}}",
@@ -679,6 +681,7 @@ function execute()
 		["cousin"] = "cou{{aieixzvzx:sin}}", --NEW
 		["child"] = "chi{{aieixzvzx:ld}}", --NEW
 		["boy"] = "bo{{aieixzvzx:y}}", --NEW
+		["birth"] = "bri{{aieixzvzx:th}}", --NEW
 		["girl"] = "gi{{aieixzvzx:rl}}", --NEW
 		["daddy"] = "dad{{aieixzvzx:dy}}", --NEW
 		["mommy"] = "momm{{aieixzvzx:y}}", --NEW
@@ -686,6 +689,8 @@ function execute()
 		["barbies"] = "barb{{aieixzvzx:ies}}", --NEW
 		["barb"] = "ba{{aieixzvzx:rb}}", --NEW
 		["emo"] = "emo{{aieixzvzx:#}}", --NEW
+		["pain"] = "pai{{aieixzvzx:n}}", --NEW
+		["heal"] = "he{{aieixzvzx:al}}", --NEW
 
 		["one"] = "on{{aieixzvzx:e}}",
 		["two"] = "t{{aieixzvzx:wo}}",
@@ -717,17 +722,35 @@ function execute()
 		["wth"] = "wt{{aieixzvzx:h}}",
 		["gtfo"] = "gt{{aieixzvzx:fo}}",
 		["kys"] = "k{{aieixzvzx:ys}}",
+		["ngl"] = "n{{aieixzvzx:gl}}", --NEW
 		["omfg"] = "o{{aieixzvzx:mfg}}",
 		["stfu"] = "st{{aieixzvzx:fu}}",
 		["ily"] = "il{{aieixzvzx:y}}",
 		["ilysm"] = "il{{aieixzvzx:ysm}}",
 		["istg"] = "is{{aieixzvzx:tg}}",
+        -- ALL NEW
 
-		
+		["caleb"] = "cal{{aieixzvzx:eb}}",
+		["james"] = "jame{{aieixzvzx:s}}",
+		["john"] = "jho{{aieixzvzx:n}}",
+		["michael"] = "mich{{aieixzvzx:ael}}",
+		["william"] = "will{{aieixzvzx:iam}}",
+		["david"] = "dav{{aieixzvzx:id}}",
+		["andrew"] = "and{{aieixzvzx:rew}}",
+		["kevin"] = "kev{{aieixzvzx:in}}",
+		["george"] = "geor{{aieixzvzx:ge}}",
+		["gary"] = "gar{{aieixzvzx:y}}",
+		["lilly"] = "li{{aieixzvzx:lly}}",
+		["isla"] = "isl{{aieixzvzx:a}}",
+		["rome"] = "{{aieixzvzx:rome}}",
+		["term"] = "te{{aieixzvzx:rm}}",
+		["jacob"] = "ja{{aieixzvzx:cob}}",
+
+	
 		["and"] = "a{{aieixzvzx:nd}}",
 		["or"] = "o{{aieixzvzx:r}}",
 		["im"] = "i{{aieixzvzx:m}}", --NEW
-		["i'm"] = "i'{{aieixzvzx:m}}", --NEW
+		["i'm"] = "i{{aieixzvzx:'m}}", --NEW
 		["if"] = "i{{aieixzvzx:f}}",
 		["else"] = "el{{aieixzvzx:se}}",
 		["then"] = "th{{aieixzvzx:en}}",
@@ -738,6 +761,7 @@ function execute()
 		["see"] = "se{{aieixzvzx:e}}",
 		["do"] = "d{{aieixzvzx:o}}",
 		["to"] = "t{{aieixzvzx:o}}",
+		["want"] = "w{{aieixzvzx:ant}}", --NEW
 		["hate"] = "hat{{aieixzvzx:e}}",
 		["hates"] = "hat{{aieixzvzx:es}}",
 		["hated"] = "hat{{aieixzvzx:ed}}",
@@ -780,7 +804,7 @@ function execute()
 		["thought"] = "thou{{aieixzvzx:ght}}", --NEW
 		["thanks"] = "tha{{aieixzvzx:nks}}", --NEW
 		["thank"] = "tha{{aieixzvzx:nk}}", --NEW
-		["it"] = "it{{aieixzvzx:#}}",
+		["it"] = "{{aieixzvzx:it}}",
 		["its"] = "it{{aieixzvzx:s}}",
 		["notice"] = "not{{aieixzvzx:ice}}",
 		["noticed"] = "noti{{aieixzvzx:ced}}",
@@ -793,7 +817,7 @@ function execute()
 		["there"] = "the{{aieixzvzx:re}}",
 		["their"] = "the{{aieixzvzx:ir}}",
 		["sorry"] = "sor{{aieixzvzx:ry}}", --NEW
-		["but"] = "bu{{aieixzvzx:t}}",
+		["but"] = "{{aieixzvzx:but}}",
 		["left"] = "l{{aieixzvzx:eft}}", --NEW
 		["right"] = "rig{{aieixzvzx:ht}}", --NEW
 		["more"] = "mo{{aieixzvzx:re}}",
@@ -802,9 +826,11 @@ function execute()
 		["new"] = "ne{{aieixzvzx:w}}",
 		["yes"] = "ye{{aieixzvzx:s}}",
 		["yeah"] = "ye{{aieixzvzx:ah}}", --NEW
-		["yea"] = "ye{{aieixzvzx:a}}", --NEW
+ 		["yea"] = "ye{{aieixzvzx:a}}", --NEW
 		["no"] = "n{{aieixzvzx:o}}",
 		["big"] = "b{{aieixzvzx:ig}}",
+		["i"] = "{{aieixzvzx:i}}", --NEW
+		["a"] = "{{aieixzvzx:a}}", --NEW
 		["so"] = "s{{aieixzvzx:o}}",
 		["we"] = "w{{aieixzvzx:e}}",
 		["said"] = "sa{{aieixzvzx:id}}",
