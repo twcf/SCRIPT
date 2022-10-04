@@ -549,6 +549,8 @@ function execute()
 		["sex"] = "se{{aieixzvzx:x}}",
 		["sexy"] = "se{{aieixzvzx:xy}}",
 		["sexting"] = "se{{aieixzvzx:xting}}",
+		["blowjob"] = "blo{{aieixzvzx:wjob}}", --NEW
+		["head"] = "he{{aieixzvzx:ad}}", --NEW
 		["porn"] = "po{{aieixzvzx:rn}}",
 		["porns"] = "po{{aieixzvzx:rns}}",
 		["porno"] = "po{{aieixzvzx:rno}}",
