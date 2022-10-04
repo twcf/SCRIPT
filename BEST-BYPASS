@@ -802,6 +802,7 @@ function execute()
 		["yeah"] = "ye{{aieixzvzx:ah}}", --NEW
 		["yea"] = "ye{{aieixzvzx:a}}", --NEW
 		["no"] = "n{{aieixzvzx:o}}",
+		["big"] = "b{{aieixzvzx:ig}}",
 		["so"] = "s{{aieixzvzx:o}}",
 		["we"] = "w{{aieixzvzx:e}}",
 		["said"] = "sa{{aieixzvzx:id}}",
