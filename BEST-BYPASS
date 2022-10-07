@@ -640,6 +640,9 @@ function execute()
 		["monkey"] = "mon{{aieixzvzx:key}}", --NEW
 		["mellon"] = "mel{{aieixzvzx:lon}}", --NEW
 		["white"] = "whi{{aieixzvzx:te}}", --NEW
+		["cracker"] = "cra{{aieixzvzx:cker}}", --NEW
+		["crackers"] = "cra{{aieixzvzx:cker}}s", --NEW
+		["cracka"] = "cra{{aieixzvzx:cka}}", --NEW
 		["suck"] = "su{{aieixzvzx:ck#}}",
 		["sucks"] = "su{{aieixzvzx:cks}}",
 		["sucking"] = "su{{aieixzvzx:cking}}",
