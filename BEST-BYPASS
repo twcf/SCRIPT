@@ -835,11 +835,10 @@ function execute()
 		["new"] = "ne{{aieixzvzx:w}}",
 		["yes"] = "ye{{aieixzvzx:s}}",
 		["yeah"] = "ye{{aieixzvzx:ah}}", --NEW
+		["that"] = "tha{{aieixzvzx:t}}", --NEW
  		["yea"] = "ye{{aieixzvzx:a}}", --NEW
 		["no"] = "n{{aieixzvzx:o}}",
 		["big"] = "b{{aieixzvzx:ig}}",
-		["i"] = "{{aieixzvzx:i}}", --NEW
-		["a"] = "{{aieixzvzx:a}}", --NEW
 		["so"] = "s{{aieixzvzx:o}}",
 		["we"] = "w{{aieixzvzx:e}}",
 		["said"] = "sa{{aieixzvzx:id}}",
