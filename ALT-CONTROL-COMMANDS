@@ -6,7 +6,7 @@ Main Commands:
 /Aura *Alt Username Or Display Name*
 /Aura Off
 /LoopDel *Do Not use it while using Aura Or Costum Drop. It will break the Aura.*
-/Ad On
+/Ad
 /Ad Off
 /Wallet
 /Wallet Off
@@ -54,3 +54,5 @@ Auto Render
 Auto FPS
 Anti AFK Kick
 Smart Text *So you Don't have to put full names*
+
+**all command triggeres can be changeable but the off arguments are not, for example i can change /freeze to .stay or something but the off trigger will be .stay off**
