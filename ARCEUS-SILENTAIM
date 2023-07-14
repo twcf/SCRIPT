@@ -179,16 +179,6 @@ getgenv().Arceus = {
 
 -- // If You See This Means That You Got This Or It Got Leaked. Look I Do Not Care About You Skidding Of It But If Your Just Gonna try To Make The Exact Same Replica Imma Beat Yo Mamma. AnyWays Gl 
 
--- // Checks If Obfuscated Else Makes Luraph Macro Useless Function
-if not LPH_OBFUSCATED then
-    LPH_JIT_MAX = function(...)
-        return (...)
-    end
-    LPH_NO_VIRTUALIZE = function(...)
-        return (...)
-    end
-end
-
 LPH_JIT_MAX(function()
 -- // Variables (Too Lazy To Make It To One Local)
 local Arceus = getgenv().Arceus
