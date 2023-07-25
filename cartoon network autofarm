@@ -1,0 +1,121 @@
+--// Settings ---------------------------------------------//--
+getgenv()["World of Gumball"] = false -- Teleport to AWOG coins
+getgenv()["Craig of the Creek"] = false -- Teleport to COTC coins
+getgenv()["Teen Titans Go"] = false -- Teleport to TTG coins
+getgenv()["We Bare Bears"] = false -- Teleport to WBB coins
+getgenv()["CN Tokens"] = true -- Teleport to Tokens
+
+local me = game.Players.LocalPlayer.Character
+
+local function TeleportToCoin(coin)
+    me.HumanoidRootPart.CFrame = coin.CFrame
+end
+
+local function TeleportToAllAWOGCoins()
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        if coin.Name == "AWOG" then
+            TeleportToCoin(coin)
+            wait(0.1)
+        end
+    end
+end
+
+local function TeleportToAllTokenCoins()
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        if coin.Name == "Token" then
+            TeleportToCoin(coin)
+            wait(0.1)
+        end
+    end
+end
+
+local function TeleportToAllCOTCCoins()
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        if coin.Name == "COTC" then
+            TeleportToCoin(coin)
+            wait(0.1)
+        end
+    end
+end
+
+local function TeleportToAllTTGCoins()
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        if coin.Name == "TTG" then
+            TeleportToCoin(coin)
+            wait(0.1)
+        end
+    end
+end
+
+local function TeleportToAllWBBCoins()
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        if coin.Name == "WBB" then
+            TeleportToCoin(coin)
+            wait(0.1)
+        end
+    end
+end
+
+while true do
+    if getgenv()["World of Gumball"] then
+        TeleportToAllAWOGCoins()
+    end
+
+    if getgenv()["Craig of the Creek"] then
+        TeleportToAllCOTCCoins()
+    end
+
+    if getgenv()["Teen Titans Go"] then
+        TeleportToAllTTGCoins()
+    end
+
+    if getgenv()["We Bare Bears"] then
+        TeleportToAllWBBCoins()
+    end
+
+    if getgenv()["CN Tokens"] then
+        TeleportToAllTokenCoins()
+    end
+
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        coin.Touched:Connect(function()
+            if getgenv()["World of Gumball"] then
+                TeleportToCoin(coin)
+            end
+        end)
+    end
+
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        coin.Touched:Connect(function()
+            if getgenv()["CN Tokens"] then
+                TeleportToCoin(coin)
+            end
+        end)
+    end
+
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        coin.Touched:Connect(function()
+            if getgenv()["Craig of the Creek"] then
+                TeleportToCoin(coin)
+            end
+        end)
+    end
+
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        coin.Touched:Connect(function()
+            if getgenv()["Teen Titans Go"] then
+                TeleportToCoin(coin)
+            end
+        end)
+    end
+
+    for _, coin in ipairs(game.Workspace.Coins:GetChildren()) do
+        coin.Touched:Connect(function()
+            if getgenv()["We Bare Bears"] then
+                TeleportToCoin(coin)
+            end
+        end)
+    end
+
+    wait(1)
+end
