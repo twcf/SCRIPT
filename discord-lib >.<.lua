@@ -16,7 +16,7 @@ end)
 
 pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
 user =  userinfo["user"] or LocalPlayer.DisplayName
-tag = userinfo["tag"] or 0001
+tag = userinfo["tag"] or tostring(math.random(1000,9999))
 
 local function SaveInfo()
 	userinfo["pfp"] = pfp
@@ -490,7 +490,7 @@ function DiscordLib:Window(text)
 	
 	UserInputService.InputBegan:Connect(
 		function(io, p)
-			if io.KeyCode == Enum.KeyCode.RightControl then
+			if io.KeyCode == Enum.KeyCode.v then
 				if settingsopened == true then
 					settingsopened = false
 					TopFrameHolder.Visible = true
