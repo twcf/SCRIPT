@@ -15,8 +15,8 @@ pcall(function()
 end)
 
 pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
-user =  userinfo["user"] or player.DisplayName
-tag = userinfo["tag"] or tostring(math.random(1000,9999))
+user =  userinfo["user"] or game.Players.LocalPlayer.Name
+tag = userinfo["tag"] or 0001
 
 local function SaveInfo()
 	userinfo["pfp"] = pfp
