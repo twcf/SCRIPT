@@ -18,11 +18,9 @@ pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId
 user =  userinfo["user"] or game.Players.LocalPlayer.Name
 tag = userinfo["tag"] or tostring(math.random(1000,9999))
 
-if game.Players.LocalPlayer.Name == 'Calxb4k' or 'jimmybav2' then
-
-user = OWNER
-tag = 0001
-
+if game.Players.LocalPlayer.Name == Calxb4k then
+user =  userinfo["user"] or OWNER
+tag = userinfo["tag"] or 0001
 end
 
 local function SaveInfo()
