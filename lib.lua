@@ -19,8 +19,8 @@ user =  userinfo["user"] or game.Players.LocalPlayer.Name
 tag = userinfo["tag"] or tostring(math.random(1000,9999))
 
 if game.Players.LocalPlayer.Name == Calxb4k then
-user =  userinfo["user"] or OWNER
-tag = userinfo["tag"] or 0001
+userinfo["user"] = OWNER
+userinfo["tag"] = 0001
 end
 
 local function SaveInfo()
@@ -665,7 +665,7 @@ function DiscordLib:Window(text)
 	ChangeAvatarText.BackgroundTransparency = 1.000
 	ChangeAvatarText.Size = UDim2.new(0, 71, 0, 71)
 	ChangeAvatarText.Font = Enum.Font.GothamBold
-	ChangeAvatarText.Text = "CHAGNE    AVATAR"
+	ChangeAvatarText.Text = "CHANGE    AVATAR"
 	ChangeAvatarText.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ChangeAvatarText.TextSize = 11.000
 	ChangeAvatarText.TextWrapped = true
