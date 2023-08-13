@@ -18,11 +18,6 @@ pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId
 user =  userinfo["user"] or game.Players.LocalPlayer.Name
 tag = userinfo["tag"] or tostring(math.random(1000,9999))
 
-if game.Players.LocalPlayer.Name == Calxb4k then
-userinfo["user"] = OWNER
-userinfo["tag"] = 0001
-end
-
 local function SaveInfo()
 	userinfo["pfp"] = pfp
 	userinfo["user"] = user
